@@ -1,0 +1,26 @@
+#news{
+    background-color: #282A36;
+
+}
+
+.links{
+    padding: 5px;
+}
+
+.links a{
+    color: white;
+    font-size: 12pt;
+    font-weight: lighter;
+}
+
+.links a:hover{
+    padding: 4px 8px;
+    color: white;
+    border-radius: 20px;
+    background-color: #BD93F9;
+    text-decoration: currentColor;
+}
+
+.noticias h1{
+    color: white;
+}

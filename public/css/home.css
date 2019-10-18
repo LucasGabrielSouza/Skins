@@ -1,0 +1,53 @@
+.destaques{
+    margin: 0 auto;
+    width: 250px;
+    height: 350px;
+    vertical-align: center;
+    padding: 0;
+    background-color: #282A36;
+    border-radius: 20px;
+}
+
+.destaques:hover{
+    border: 2px solid gold;
+}
+
+.destaques img{
+    border-radius: 20px;
+}
+
+.destaques h3{
+    font-size: 10pt;
+    margin: 0 10px;
+    color: gold;
+    padding: 15px;
+}
+
+.destaques small{
+    margin: 0 5px;
+}
+
+.float{
+    color: #BD93F9;
+}
+
+
+.destaques p{
+    font-size: 8pt;
+    margin: 0 5px;
+    color: white;
+}
+
+.destaques .buy{
+    margin: 10px 0;
+    border-color: gold;
+    color: gold;
+    padding: 10px;
+    
+}
+
+#skinsDestaques{
+    padding: 20px 5px;
+    background-color: #191A21;
+    width: 0 auto;
+}

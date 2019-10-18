@@ -1,0 +1,66 @@
+
+html, body{
+    background-color: #282A36;
+    height: 100vh;
+}
+
+.line{
+background-image: linear-gradient(to right, #BD93F9 , #F96DBF);
+height: 2px;
+padding: 0;
+margin: 0;
+}
+
+#Top{
+    background-color: #21222C;
+    height: auto;
+}
+
+#Navb{
+    background-color: #21222C;
+    color: white;
+    padding: 10px 10px;
+}
+
+#status{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    color: gold;
+    vertical-align: bottom;
+}
+
+@media only screen and (max-width: 600px) {
+    #status {
+      display: none;
+    }
+  }
+#status .imgUser{
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+}
+
+#status .btnLogin{
+    width: 120px;
+    height: 50px;
+}
+
+
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+}
+
+.underline{
+background-image: linear-gradient(to right, #22A5F1, #01DF4F);
+height: 2px;
+padding: 0;
+margin: 0;
+}
+
